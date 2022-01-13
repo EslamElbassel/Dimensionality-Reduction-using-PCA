@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 
 # Loading data
-data = pd.read_csv('emails.csv')
-feature_vectors = data.iloc[1:, 1:].values  # [[1, 7], [5, 3], [3, 5], [0, 8], [4, 4]]
+data = pd.read_csv('emails.csv')  # your input variables data
+feature_vectors = data.iloc[1:, 1:].values  
 
 # Step1: compute the mean
 mean = []
