@@ -13,7 +13,7 @@ for i in range(len(feature_vectors[0])):
         m += feature_vectors[j][i]
     mean.append(m / len(feature_vectors))
 mean = np.array(mean)
-# print("Mean: ", mean)
+
 
 # shifted mean
 shifted_mean = []
